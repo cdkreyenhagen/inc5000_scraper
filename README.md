@@ -1,6 +1,10 @@
 inc5000_scraper
 ===============
 
+Requires Requests:
+$ pip install requests
+$ easy_install requests
+
 Scrape the Inc 5000 list and return a dictionary with values for every company.
 
 Since accessing a company’s JSON file requires only its ID value, every company’s information can be reached iteratively with only the first company’s 
